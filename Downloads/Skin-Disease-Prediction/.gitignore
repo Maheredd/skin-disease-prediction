@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+Python*/
+env/
+venv/
+*.env
+.env
+.DS_Store # macOS specific
+
+# Flask
+instance/
+.flaskenv
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# OS generated files
+.DS_Store
+.localized
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Specific to your project (if any other temporary files are generated)
+# For example, if you had a 'temp_images/' folder for uploaded files:
+# temp_images/
+
+# NOTE: skin_disease_model.h5 is NOT ignored here because it's handled by Git LFS.
+# If you were NOT using Git LFS, you would typically ignore large model files.
